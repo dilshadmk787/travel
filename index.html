@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOYAGER'S HUB</title>
+    <link rel="icon" href="./images/logo.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <!--navbar -->
+    <nav class="navbar navbar-expand-lg bg-success bg-opacity-75 p-2 text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">VOYAGER'S HUB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <!-- dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  facilities
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Flight</a></li>
+                  <li><a class="dropdown-item" href="#">Hotels</a></li>
+                  <li><a class="dropdown-item" href="#">rent car</a></li>
+                  <li><a class="dropdown-item" href="#">cruises</a></li>
+                </ul>
+              </li>
+              <!-- ** -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" >contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>  
+      <!-- carosel -->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="object-fit-cover" src="./images/mysore.jpg" width="100%" height="615px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MYSORE PALACE</h5>
+              <p>Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a royal residence (house). It is located in Mysore, Karnataka</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="object-fit-cover" src="./images/taj.jpg" class="d-block w-100" width="100%" height="615px" height="300px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>TAJ MAHAL</h5>
+              <p>The Taj Mahal 'WONDERS OF WORLD' ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img  src="./images/charminar.jpg" width="100%" height="615px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CHARMINAR</h5>
+              <p>The Charminar (four minarets) is a monument located in Hyderabad, Telangana, India. Constructed in 1591</p>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <img class="object-fit-cover"  src="./images/kerala.jpg" width="100%" height="615px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ALAPHUZHA</h5>
+              <p >
+  
+                Alappuzha A town with canals, backwaters, beaches, and lagoons, Alappuzha was described by George Curzon, as the "Venice of the East"</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="object-fit-cover" src="./images/kashmir.jpg " width="100%" height="615px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>KASHMIR</h5>
+              <p>Kashmir is the northernmost geographical region of the Indian subcontinent. the term "Kashmir" denoted only the Kashmir Valley between the Great Himalayas and the Pir Panjal Range</p>
+            
+            </div>
+        </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- hovereffect -->
+      <section style="margin-top: 10px;">
+        <div class="container1 container-fluid">
+
+          <div class="row ">
+            <div class="cards col-xl-2  col-lg-4 col-6" style="text-align: center;" >
+                <h6 style="text-align: center;">TREKKING</h6>
+                <a href=""><img src="./images/trekking.jpg"  ></a>
+            </div>
+
+            <div class="cards col-xl-2 col-lg-4 col-6" style="text-align: center;">
+                <h6 >WILDLIFE SAFARI</h6>
+                <a href=""><img src="./images/SAFARI.jpg" alt=""></a>
+            </div>
+
+            <div class="cards col-xl-2 col-lg-4 col-6" style="text-align: center;">
+                <h6>MOUNTAIN PEAK</h6>
+                <a href=""><img src="./images/snow.jpg" alt=""></a>
+            </div>
+
+            <div class="cards col-xl-2 col-lg-4 col-6" style="text-align: center;">
+                <h6>CRUISE</h6>
+                <a href=""><img src="./images/cruiseship.jpg" alt=""></a>
+            </div>
+
+            <div class="cards col-xl-2 col-lg-4 col-6 " style="text-align: center;">
+                <h6>DESERT</h6>
+                <a href=""><img src="./images/DESERT.jpg" alt=""></a>
+            </div>
+
+            <div class="cards col-xl-2 col-lg-4 col-6" style="text-align: center;">
+                <h6>BEACH</h6>
+                <a href=""><img src="./images/beach.jpg" alt=""></a>
+            </div>
+
+        </div>
+
+
+        
+        
+        </div>
+      </section>
+      <!-- search section -->
+      <section style="margin-top: 10px;">
+        <div class="container1 container">
+           <div class="row">
+              <div class="input-group flex-nowrap" style="width: 90%; margin-right: auto; margin-left: auto;">
+                  <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass fa-fade" style="color: #58a47c;"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="where you want to go ?" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+           </div>
+
+           <div class="row">
+            <div class="form2 " style="width: 80%; margin-left: auto; margin-right: auto;">
+               <label class="col-xl-2 col-6" style="width: 125px;" for="date">check in date</label>
+                <input id="date" class="col-xl-2 col-6" type="date" style="width: 30vh; height: 6vh; border-radius: 20px;">
+                <label class="col-xl-1 col-6 " style="width: 40px;" for="date">to</label>
+                <input id="date" class="col-xl-1 col-6" type="date" style="width: 30vh; height: 6vh; border-radius: 20px;">
+                 
+                <label for="travellers"class="col-xl-1 col-12">Travellers</label>
+                <select class="col-xl-1 col-6" name="" id="travellers" style=" height: 6vh; width: 15vh; border-radius: 20px;">
+                  <option value="">1 Adult</option>
+                  <option value="">2 adult</option>
+                  <option value="">3 Adult</option>
+                  <option value="">4 Adult</option>
+                </select>
+              
+                <select class="col-xl-2 col-6" name="" id="" style="height: 6vh; width: 15vh; border-radius: 20px;">
+                  <option value="">none</option>
+                  <option value="">1 child</option>
+                  <option value="">2 children </option>
+                  <option value="">3 children</option>
+                  <option value="">4 children</option>
+                </select>
+            </div>
+           </div>
+
+<div class="row">
+                <div class="form3" style="width: 80%; margin-left: auto; margin-right: auto; ">
+<div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Vacation
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Bussiness
+                      </label>
+                    </div>
+</div>
+
+<button type="button" class="btn" style="background-color: rgb(207, 205, 246); width: 160px; height: 35px;">Search</button>
+                </div>
+</div>
+
+
+        </div>
+      </section>
+      <!-- about -->
+      <section id="about">
+        <div class="row"><h1>Who We are</h1></div>
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-xl-6 col-12"><img src="./images/about.jpg" width="100%" style="padding-top: 45px;" alt=""></div>
+            <div class="col-xl-6 col-12">
+                <div class="row">  <p style="margin-top: 20px;">Discover your next adventure with Voyagers Hub! We're your ultimate travel companion, offering a curated selection of immersive travel guides, insider tips from globetrotters, and a thriving community sharing their journeys. Let Voyagers Hub inspire, inform, and fuel your wanderlust as you explore the world's most captivating destinations.</p>
+                </div>
+                <div class="about_button row" style="margin-left: auto; margin-right: auto;" >            
+                  <button class="btn2 bg-success bg-opacity-75" >Read-more</button>
+                </div>
+
+        </div>
+      </div>
+      </section>
+        <!-- packages -->
+        <section id="packages">
+            <div><h1 style="text-align: center; color: rgba(17, 78, 35, 0.901);">SUMMER IN EUORPE</h1></div>
+            <div class="row">
+                <div id="EUORPE" class="card col-lg-3 col-md-6 col-sm-12" >
+                    <img class="card-img-top" src="./images/eiffel.jpg"  alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">France</h4>
+                      <p class="card-text">France's scenery is as diverse as it is beautiful, with the glittering coastlines of the French Riviera, the patchwork fields of the Loire Valley, the snow-capped Alps </p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 1.8L</a>
+                    </div>
+                </div>
+
+                <div id="EUORPE" class=" card col-lg-3 col-md-6 col-sm-12">
+                    <img class="card-img-top" src="./images/colosium.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Italy</h4>
+                      <p class="card-text">Italy is known for its architecture, art, opera, film, and fashion. This is one of the best countries to go on a foreign tour. The country is known for</p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 1.8L</a>
+                    </div>
+                </div>
+
+                <div id="EUORPE" class=" card col-lg-3 col-md-6 col-sm-12">
+                    <img class="card-img-top" src="./images/londonbridge.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">United Kingdom</h4>
+                      <p class="card-text">UK is steeped in history, rich in dramatic landscapes, and bursting with local experiences. From medieval towns to breathtaking scenery, Britain is </p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 1.8L</a>
+                    </div>
+                  </div>
+
+                  <div id="EUORPE" class=" card col-lg-3 col-md-6 col-sm-12">
+                    <img class="card-img-top" src="./images/spain.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Spain</h4>
+                      <p class="card-text">spain With diverse cultures and civilisations, it has many UNESCO World Heritage Sites, including historical landmarks and castles. It also has a joyful</p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 1.8L</a>
+                    </div>
+                  </div>
+
+            </div>
+            <!-- ***** -->
+            <div><h1 style="text-align: center; margin-top: 5px;">INDIA</h1></div>
+            <div class="row">
+
+                <div id="INDIA" class="card col-lg-3 col-md-6 col-sm-12">
+                    <img class="card-img-top" src="./images/munnar.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Kerala</h4>
+                      <p class="card-text">It is a perfect gateway for nature lovers, adventure seekers, honeymooners, families and backpackers. Kerala allure with </p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 12k</a>
+                    </div>
+                </div>
+                
+                <div id="INDIA" class="card col-lg-3 col-md-6 col-sm-12" >
+                    <img class="card-img-top" src="./images/goa.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Goa</h4>
+                      <p class="card-text">Goa is one of the most favorite destination among Indian tourists due to its pristine beaches. Dotted with hundreds </p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 16k</a>
+                    </div>
+                </div>
+                
+                <div id="INDIA" class="card col-lg-3 col-md-6 col-sm-12">
+                    <img class="card-img-top" src="./images/kashmir2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Jammu and Kashmir</h4>
+                      <p class="card-text">Jammu and Kashmir is a tourist favorite for its scenic splendor, snow-capped mountains, plentiful wildlife, exquisite </p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 24k</a>
+                    </div>
+                </div>
+                
+                <div id="INDIA" class="card col-lg-3 col-md-6 col-sm-12">
+                    <img class="card-img-top" src="./images/andhaman.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Andaman</h4>
+                      <p class="card-text">Andaman in search of solitude, natural beauty and adventure but very few are aware known as the paradise of Birds. </p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 44K</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ******* -->
+            <div><h1 style="text-align: center; margin-top: 5px;">top international packages</h1></div>
+            <div class="row">
+                <div  class="top card col-lg-3 col-md-6 col-sm-12">
+                    <img class="card-img-top" src="./images/uae.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Dubai</h4>
+                      <p class="card-text">Dubai is so much better because from all over the world to it has the mostfrom all over the world to enjoy the coral reefs, local life luxurious hotels, large shopping malls, a variety of activities and experiences like</p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 80k</a>
+                    </div>
+                </div>
+                
+                <div  class="top card col-lg-3 col-md-6 col-sm-12" >
+                    <img class="card-img-top" src="./images/malidives.jpg"   alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Malidives</h4>
+                      <p class="card-text">Tourists journey from all over the world to enjoy the coral reefs, local life, delicious food, beach activity, and atoll resort accommodations. You can choose from coral islands, archipelago resorts, hotel</p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 75k</a>
+                    </div>
+                </div>
+                
+                <div  class="top card col-lg-3 col-md-6 col-sm-12" >
+                    <img class="card-img-top" src="./images/usa.jpg"  alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">United Sates</h4>
+                      <p class="card-text">one of the most important and developed countries in today's world, it has a huge number of tourists visiting each year. From pristine and beautiful beaches to a rich and natural landscape of mountains and forests, the USA </p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 3.8L</a>
+                    </div>
+                 </div>
+                
+                <div class="top card col-lg-3 col-md-6 col-sm-12" >
+                    <img class="card-img-top" src="./images/singapore.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Singapore</h4>
+                      <p class="card-text">Singapore is a cosmopolitan society where people common . est of Chinese, Malay, Indian and Eurasian cultures through the many traditional and religious festivals that fill the Singapore calendar</p>
+                      <a href="#" class="btn bg-success bg-opacity-75">from 1.4L</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="container2 container-fluid">
+              <div class="row"> <h1 style="text-align: center;">CONTACT</h1></div>
+
+              <div class="row">
+                  <div class="col-xl-4 col-12" style="margin-right: auto; margin-left: auto;">
+    
+                    <div class="row"><h2>contact us</h2></div>
+                    <div class="row"><i class="fa-solid fa-location-dot" style="color: #58a87c; ; font-size: 30px;"></i><h6>kochi,kerala</h6></div>
+                    <div class="row"><i class="fa-solid fa-envelope" style="color: #58a480; font-size: 30px;"></i><h6>Voyagers@gmail</h6></div>
+                    <div class="row"><i class="fa-brands fa-whatsapp" style="color: #58a480; font-size: 30px;"></i><h6>9744478880</h6></div>
+                    <div class="row"><i class="fa-brands fa-x-twitter" style="color: #58a480; font-size: 30px;"></i><h6>VOYAGERHUB</h6></div>
+                    <div class="row"><i class="fa-brands fa-instagram" style="color: #58a480; font-size: 30px;"></i><h6>voyager_hub</h6></div>
+                      
+    
+    
+                  </div>
+    
+                  <div class="col-xl-3 col-12" style="margin-right: auto; margin-left: auto;">
+                    <div class="row"><h2>Get In Touch</h2></div>
+                    <div class="row">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                      </div>
+                      <button style="background-color: rgb(88, 164, 128); border-radius: 8px; width: 90px; height: 38px;">sent</button>
+    
+                    </div>
+                  </div>
+              </div>
+
+
+            </div>
+        </section>
+        <!-- REVIEW -->
+        <H1 style="text-align: center; margin-top: 40px;">REVIEW</H1>
+        <section class="review" style="background-color: rgb(201, 201, 201); margin-top: 30px; ">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="review-container">
+                  <img class="review-image" src="./images/WhatsApp Image 2023-09-03 at 12.20.21 PM.jpeg" alt="Review Image">
+                  <p class="review-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus sed libero laoreet luctus in nec justo. Sed feugiat, nunc id auctor tristique, sem ipsum congue urna."
+                  </p>
+                  <p class="review-author">-toni kross </p>
+              </div>
+          
+              </div>
+              <div class="carousel-item">
+                <div class="review-container">
+                  <img class="review-image" src="./images/christian-ferrer-aK5Dt6L6_hQ-unsplash.jpg" alt="Review Image">
+                  <p class="review-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus sed libero laoreet luctus in nec justo. Sed feugiat, nunc id auctor tristique, sem ipsum congue urna."
+                  </p>
+                  <p class="review-author">- ferrer</p>
+              </div>
+          
+              </div>
+              <div class="carousel-item">
+                <div class="review-container">
+                  <img class="review-image" src="./images/aiony-haust-3TLl_97HNJo-unsplash.jpg" alt="Review Image">
+                  <p class="review-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus sed libero laoreet luctus in nec justo. Sed feugiat, nunc id auctor tristique, sem ipsum congue urna."
+                  </p>
+                  <p class="review-author">-aiony haust</p>
+              </div>
+          
+              </div>
+          
+          
+              <div class="carousel-item">
+                <div class="review-container">
+                  <img class="review-image" src="./images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="Review Image">
+                  <p class="review-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus sed libero laoreet luctus in nec justo. Sed feugiat, nunc id auctor tristique, sem ipsum congue urna."
+                  </p>
+                  <p class="review-author">-christian buehner </p>
+              </div>
+          
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <!--footer  -->
+        <footer style="background-color: #58a47c; ">
+          <div class="row" style="margin-right: auto; margin-left: auto;">
+            <div class="col-xl-7  col-12"><h2>Join our comunity</h2></div>
+
+            <div class="col-xl-2 col-4">
+                <div class="row"><a href="">about us</a></div>
+                <div class="row"><a href="">contact us </a></div>
+                <div class="row"><a href="">faq</a></div>
+                <div class="row"><a href="">events</a></div>
+            </div>
+            <div class="col-xl-2 col-4">
+              <div class="row"><a href="">privacy policy</a></div>
+              <div class="row"><a href="">refund policy</a></div>
+              <div class="row"><a href="">exchange rate</a></div>
+            </div>
+            <div class="col-xl-1 col-4">
+              <div class="row"><a href="">how to book</a></div>
+              <div class="row"><a href="">gallery</a></div>
+              <div class="row"><a href="">visa</a></div>
+            </div>
+          </div>
+          <div class="row p-5"></div>
+          <div class="row">
+            <div class="col-xl-9 col-12">© 2023 voyager's hub. All rights reserved.</div>
+            <div class="col-xl-1 col-4"><a href="">instagram</a></div>
+            <div class="col-xl-1 col-4"><a href="">facebook</a></div>
+            <div class="col-xl-1 col-4"><a href="">twitter</a></div>
+          </div>
+        </footer>
+        <!--  -->
+
+    </div>
+</body>
+</html>

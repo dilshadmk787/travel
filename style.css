@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    font-family: 'Lora', serif;
+}
+
+.nav-item a:hover{
+    color: white;
+    }
+.dropdown-item:hover{
+     background-color: rgb(88,164,124);
+}
+/* hover */
+.cards img{
+    width:150px ;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.cards img:hover{
+    cursor: pointer;
+animation: swing 1.2s;
+}
+@keyframes swing{
+    10%{
+        transform: scale(.9);
+    }
+    20%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    40%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.9);
+    }
+}
+
+/* Define a media query for Galaxy Fold in portrait mode */
+@media (max-width: 280px) {
+    /* Inside the media query, target the cards element and change the column classes */
+    .cards {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+/* ******************** */
+.container{
+    background-image: url(./images/flightbg.jpg);
+    background-size: cover;
+    height: 80vh;
+    margin-top: 20px;
+}
+.input-group{
+    padding-top: 80px;
+    margin-left: 100px;
+}
+.form2{
+    padding-top: 25px;
+}
+.form3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+  
+  }
+
+
+.container label{
+    color: white;
+}
+/* about */
+#about{
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#about h1{
+    text-align: center;
+  }
+  #about p{
+    font-size: 20px;
+  }
+  .about_button{
+    width: 30%;
+  }
+  @media only screen and (max-width: 600px) {
+    .about_button{
+      width: 38%;
+    }
+  }
+  .btn2{
+    border-radius: 7px;
+  }
+  
+
+/* packages */
+
+#packages{
+    padding-top: 45px;
+    
+}
+#packages .row{
+    justify-content: space-between;
+}
+#packages h5{
+    text-align: right;
+    width: 90%;
+}
+
+@media (max-width: 600px) {
+    /* Inside the media query, target the cards element and change the column classes */
+    #packages h5 {
+        padding-right: 40px;
+        margin-right: 0px;
+    }
+  }
+
+
+.container2{
+    background-image: url(./images/contactbg.jpg);
+    background-size: cover;
+    margin-top: 20px;
+}
+.contact-cont{
+    display: flex;
+}
+.right-section label{
+    color: rgb(88, 164, 128);
+}
+.card{
+    box-shadow: 0px 4px 12px gainsboro ;
+    border: none;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+
+
+}
+#EUORPE{
+    width: 300px;
+    height: 520px;
+}
+#INDIA{
+    width: 300px;
+    height: 490px;
+}
+.top{
+    width: 300px;
+    height: 580px;
+}
+.card-img-top{
+    width: 100%;
+    height: 270px; 
+    object-fit: cover; 
+
+}
+.card img{
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+.card img:hover {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/* review */
+.review-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.review-image {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.review-text {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.review-author {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+  /**{
+    outline: 1px solid #f00 !important
+}  */
+
+h1{
+    color: rgb(88, 164, 128);
+}
+.row{
+    text-align: center;
+    align-items: center;
+/*     width: 100%;
+ */}
+
+
+
+/* Shine */
+
+
+
+
